@@ -15,15 +15,15 @@ int main(void)
 		printf("%lu, ", i);
 		while (count <= 50)
 		{
-				if (count == 50)
-				{
+			if (count == 50)
+			{
+				printf("%lu\n", j);
+			}
+			else
+			{
+				printf("%lu, ", j);
+			}
 
-					printf("%lu\n", j);
-				}
-				else
-				{
-					printf("%lu, ", j);
-				}
 			k = j;
 			j += i;
 			i = k;
