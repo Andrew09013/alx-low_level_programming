@@ -17,7 +17,7 @@ int main(void)
 
 	while (n % 2 == 0)
 	{
-	        max = 2;
+		max = 2;
 		n /= 2;
 	}
 
