@@ -1,5 +1,4 @@
 #include "main.h"
-
 /**
  * print_number -  checks for checks for a digit (0 through 9).
  * @n: n -  Variable
@@ -7,14 +6,14 @@
  */
 void print_number(int n)
 {
-<<<<<<< HEAD
+<< << << < HEAD
 	int i, d, p, f;
 	int j;
 	char num[1000];
-=======
+== == == =
 	unsigned int z;
 	int m, b;
->>>>>>> 02f4879befaee9c324521caa68f89e7cfec064bb
+>> >> >> > 02f4879befaee9c324521caa68f89e7cfec064bb
 
 	b = 10;
 
