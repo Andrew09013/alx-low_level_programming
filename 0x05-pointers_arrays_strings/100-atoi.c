@@ -13,7 +13,7 @@ int _atoi(char *s)
 
 	len = 0;
 	x = 0;
-	numcont = 0;
+	numcount = 0;
 	mult = 1;
 	neg = 1;
 	num = 0;
