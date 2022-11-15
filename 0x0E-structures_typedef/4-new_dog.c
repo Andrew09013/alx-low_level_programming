@@ -9,6 +9,7 @@
 * @owner: holds the owner
 * Return: the pointer to the dog
 **/
+
 dog_t *new_dog(char *name, float age, char *owner)
 {
 	dog_t *_dog;
@@ -42,4 +43,7 @@ dog_t *new_dog(char *name, float age, char *owner)
 	for (l = 0; l < j; l += 1)
 		_dog->owner[l] = owner[l];
 	_dog->name[k] = '\0';
-
+	_dog->owner[l] = '\0';
+	_dog->age = age;
+	return (_dog);
+}
