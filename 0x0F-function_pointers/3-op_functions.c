@@ -19,9 +19,20 @@ int op_add(int a, int b)
  * @b: second integer value
  * Return: subtraction result
  */
+int op_sub(int a, int b)
+{
+	return (a - b);
+}
+
+/**
+ * op_mul - multiplication function
+ * @a: first integer value
+ * @b: second integer value
+ * Return: multiplication result
+ */
 int op_mul(int a, int b)
 {
-	return(a * b);
+	return (a * b);
 }
 
 /**
